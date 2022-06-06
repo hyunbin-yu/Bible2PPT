@@ -131,7 +131,7 @@ class WindowClass(QMainWindow, form_class) :
 
             jul.text = input_text
             number = slide.placeholders[11]
-            number.text = self.comboBox_3.currentText()
+            number.text = self.comboBox_4.currentText()
             try:
                 filetitle = yakja[num]+" "+self.comboBox_3.currentText()+"장 "+self.comboBox_4.currentText()+"절"
                 filename = QFileDialog.getSaveFileName(self, 'Save As PowerPoint File', filetitle, "PowerPoint 프레젠테이션 (*.pptx)")[0]
