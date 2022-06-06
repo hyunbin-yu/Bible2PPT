@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>314</width>
+    <height>125</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>나눔고딕</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>구절 선택</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>10</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>창세기</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>출애굽기</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>레위기</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>민수기</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>신명기</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>여호수아</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>사사기</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>룻기</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>사무엘상</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>사무엘하</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>열왕기상</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>열왕기하</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>역대상</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>역대하</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>에스라</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>느헤미야</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>에스더</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>욥기</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>시편</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>잠언</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>전도서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>아가</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>이사야</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>예레미야</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>예레미야애가</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>에스겔</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>다니엘</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>호세아</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>요엘</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>아모스</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>오바댜</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>요나</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>미가</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>나훔</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>하박국</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>스바냐</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>학개</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>스가랴</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>말라기</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>마태복음</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>마가복음</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>누가복음</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>요한복음</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>사도행전</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>로마서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>고린도전서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>고린도후서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>갈라디아서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>에베소서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>빌립보서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>골로새서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>데살로니가전서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>데살로니가후서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>디모데전서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>디모데후서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>디도서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>빌레몬서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>히브리서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>야고보서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>베드로전서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>베드로후서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>요한일서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>요한이서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>요한삼서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>유다서</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>요한계시록</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_3">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>40</y>
+      <width>51</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>144</x>
+      <y>40</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>장</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_4">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>40</y>
+      <width>51</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>214</x>
+      <y>40</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>절 ~</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>294</x>
+      <y>40</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>절</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_6">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>40</y>
+      <width>51</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>성경 선택 :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>80</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>생성</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>314</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
